@@ -3,8 +3,8 @@ dependencies:
   - geerlingguy.repo-epel
 
 galaxy_info:
-  author: Luc Stroobant and Dieter Verhelst
-  company: Tag1 Consulting
+  author: Travis Whithead
+  company: Tag1 Consulting, Inc.
   description: Install Borg backup server and client (with rsync.net server support)
   license: MIT
   min_ansible_version: 1.9
