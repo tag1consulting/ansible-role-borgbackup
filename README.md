@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/FiaasCo/borgbackup.svg?branch=master)](https://travis-ci.com/FiaasCo/borgbackup)
-
 # Borg backup role
 This is a fork of https://github.com/FiaasCo/borgbackup which was originally written by Luc Stroobant and Dieter Verhelst.
 This fork is maintained by Tag1 Consulting, Inc.
