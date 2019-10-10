@@ -18,6 +18,7 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
+  role_name: borgbackup
   galaxy_tags:
     - borg
     - borgbackup
