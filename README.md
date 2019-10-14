@@ -9,6 +9,14 @@ It's possible to configure append-only repositories to secure the backups agains
 
 Ansible 2.4 or higher is required to run this role.
 
+## Ansible Galaxy
+This role is [`tag1consulting.borgbackup`](https://galaxy.ansible.com/tag1consulting/borgbackup) on [Ansible Galaxy](https://galaxy.ansible.com).
+To use this in a playbook add the following to your `requirements.txt` file:
+```
+# https://github.com/tag1consulting/ansible-role-borgbackup
+- src: "tag1consulting.borgbackup"
+```
+
 ## Required variables
 Define a group borgbackup\_servers in your inventory with one or multiple hosts. The group borgbackup\_management is only necessary if you want to enable append-only mode and prune the backups from a secured hosts.
 ```
